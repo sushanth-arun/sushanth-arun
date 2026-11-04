@@ -1,0 +1,53 @@
+name: Generate Contribution Matrix
+
+on:
+  schedule:
+    # Run every day at midnight (00:00 UTC)
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate Arc-Reactor Contribution Matrix
+        run: node scripts/generate-matrix.js
+
+      - name: Commit and Push Matrix Asset
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/contribution-matrix.svg
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "chore: update holographic contribution matrix [skip ci]"
+            git push origin main
+          else
+            echo "No contribution matrix updates detected."
+          fi
+
+      - name: Deploy to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: assets
+          keep_files: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
