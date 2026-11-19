@@ -64,6 +64,7 @@
 <p align="center">
   <strong>Languages</strong><br />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
@@ -73,7 +74,10 @@
 
 <p align="center">
   <strong>Frontend &amp; Frameworks</strong><br />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" alt="Gradle" />
@@ -82,9 +86,104 @@
 <!-- Skillicons Row -->
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,java,ts,js,c,cpp,aws,docker,kubernetes,jenkins,ansible,linux,react,vite,tailwind,git,github&theme=dark" alt="Skill Icons Matrix" />
+    <img src="https://skillicons.dev/icons?i=py,java,dart,flutter,firebase,ts,js,c,cpp,aws,docker,kubernetes,jenkins,ansible,linux,react,nextjs,vite,tailwind,git,github&theme=dark" alt="Skill Icons Matrix" />
   </a>
 </p>
+
+---
+
+### 🚀 Featured Systems & Active Deployments
+
+<table border="0" width="100%">
+  <!-- Row 1: FlowCast AI & T2D Home Foods App -->
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="left">
+        <a href="https://github.com/sushanth-arun/FlowCastAI">🌊 FlowCast AI</a>
+      </h3>
+      <p>
+        <em>Supply-Chain Decision Support System &bull; IBM Z Global 3rd Place</em>
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Status-Completed-00f3ff?style=flat-square" alt="Status Completed" />
+        <img src="https://img.shields.io/badge/IBM%20LinuxONE-0043CE?style=flat-square&logo=ibm&logoColor=white" alt="IBM LinuxONE" />
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+      </p>
+      <ul>
+        <li>Trained 3 ML inference models (asset health, shipment delay, stockout risk) in PyTorch/XGBoost; 97% classification accuracy.</li>
+        <li>Deployed on <b>IBM LinuxONE (s390x)</b> with ONNX runtime SIMD optimization, achieving &lt;0.02ms latency &amp; 57K–78K req/sec.</li>
+        <li>Engineered a 3-warehouse rebalancing solver preserving safety-stock bounds, simulating $13,350 net disruption savings.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/sushanth-arun/FlowCastAI"><b>Inspect Repository &rarr;</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="left">
+        <a href="https://github.com/sushanth-arun/t2d-home-foods-app">🍱 T2D Home Foods App</a>
+      </h3>
+      <p>
+        <em>Cross-Platform Mobile Ordering &amp; Cloud Kitchen Operations Engine</em>
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Status-In%20Progress%20%E2%9A%A0%EF%B8%8F-FF5722?style=flat-square" alt="Status In Progress" />
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
+        <img src="https://img.shields.io/badge/Razorpay-0C2340?style=flat-square&logo=razorpay&logoColor=white" alt="Razorpay" />
+      </p>
+      <ul>
+        <li>Architecting a production-grade cross-platform food delivery app in <b>Flutter &amp; Dart</b> with reactive Cloud Firestore streams.</li>
+        <li>Implemented multi-role operational architecture (Customer App &amp; Executive Admin Suite) with granular RBAC Firestore security rules.</li>
+        <li>Integrated Phone OTP authentication, Razorpay payment gateway, dynamic meal capacity scheduling, and bilingual (EN/Tamil) localization.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/sushanth-arun/t2d-home-foods-app"><b>Inspect Repository &rarr;</b></a> &bull; <em>Active Development</em>
+      </p>
+    </td>
+  </tr>
+  <!-- Row 2: Project Tambo & AI Image Authenticity -->
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="left">
+        <a href="https://github.com/sushanth-arun">🏢 Project Tambo</a>
+      </h3>
+      <p>
+        <em>Smart Residence 3D Dashboard &bull; Spatial Living Management</em>
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Status-Completed-00f3ff?style=flat-square" alt="Status Completed" />
+        <img src="https://img.shields.io/badge/Next.js%2016-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white" alt="Three.js" />
+        <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" alt="WebGL" />
+      </p>
+      <ul>
+        <li>Interactive residence dashboard featuring admin/resident flows, unit-aware routing, and access guards.</li>
+        <li>GPU-accelerated WebGL backgrounds using Three.js/OGL for immersive 3D spatial monitoring.</li>
+        <li>Embedded Tambo AI SDK for real-time telemetry, visual charts, and utility consumption insights.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="left">
+        <a href="https://github.com/sushanth-arun">🔍 AI Image Authenticity Detector</a>
+      </h3>
+      <p>
+        <em>Computer Vision &amp; Synthetic Forgery Defense &bull; National Finalist</em>
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Status-Completed-00f3ff?style=flat-square" alt="Status Completed" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+      </p>
+      <ul>
+        <li>Multi-stage detection framework thwarting synthetic review fraud via CNN classification and metadata forensics.</li>
+        <li>Frequency-domain spatial analysis pipeline isolating GAN and diffusion pattern artifacts.</li>
+        <li>Async FastAPI microservice delivering real-time scoring; recognized as Yukta National Hackathon Finalist.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
