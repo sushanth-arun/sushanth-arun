@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 390" width="880" height="390" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="hudBgGrad" x1="0" y1="0" x2="880" y2="390" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#060913" />
+      <stop offset="50%" stop-color="#0a1020" />
+      <stop offset="100%" stop-color="#040710" />
+    </linearGradient>
+
+    <!-- Neon Glow Filters -->
+    <filter id="glowCyan" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glowBlue" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glowViolet" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Card Backgrounds -->
+    <linearGradient id="cardBg1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1d33" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#07101f" stop-opacity="0.9" />
+    </linearGradient>
+
+    <linearGradient id="cardBg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a193d" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#060f26" stop-opacity="0.9" />
+    </linearGradient>
+
+    <linearGradient id="cardBg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b0e33" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#100721" stop-opacity="0.9" />
+    </linearGradient>
+
+    <linearGradient id="coreBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#122540" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#091424" stop-opacity="0.95" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .title { font-weight: 700; letter-spacing: 1.5px; }
+  </style>
+
+  <!-- Outer HUD Frame -->
+  <rect x="2" y="2" width="876" height="386" rx="12" fill="url(#hudBgGrad)" stroke="#152744" stroke-width="1.5" />
+
+  <!-- Subtle Blueprint Tech Circles -->
+  <g stroke="#152744" stroke-width="0.8" stroke-opacity="0.3">
+    <circle cx="440" cy="195" r="140" fill="none" stroke-dasharray="4,6" />
+    <circle cx="440" cy="195" r="230" fill="none" />
+    <line x1="30" y1="20" x2="850" y2="20" />
+    <line x1="30" y1="370" x2="850" y2="370" />
+  </g>
+
+  <!-- Corner Brackets -->
+  <path d="M 12 28 L 12 12 L 28 12" stroke="#00f3ff" stroke-width="2.2" fill="none" />
+  <path d="M 868 28 L 868 12 L 852 12" stroke="#00f3ff" stroke-width="2.2" fill="none" />
+  <path d="M 12 362 L 12 378 L 28 378" stroke="#00f3ff" stroke-width="2.2" fill="none" />
+  <path d="M 868 362 L 868 378 L 852 378" stroke="#00f3ff" stroke-width="2.2" fill="none" />
+
+  <!-- Top HUD Header Bar -->
+  <g class="mono">
+    <text x="32" y="32" fill="#00f3ff" font-size="10.5" font-weight="700" letter-spacing="2.5px">HUD SYSTEM BLUEPRINT // CORE TOPOLOGY MATRIX</text>
+    <circle cx="810" cy="28" r="4" fill="#00f3ff" filter="url(#glowCyan)" />
+    <text x="822" y="32" fill="#58A6FF" font-size="9.5" font-weight="600" letter-spacing="1px">ONLINE</text>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- CENTRAL NODE: SUSHANTH ARUN                                               -->
+  <!-- ========================================================================= -->
+  <g id="central-core">
+    <!-- Card Frame with Glowing Cyan Border -->
+    <rect x="230" y="48" width="420" height="70" rx="8" fill="url(#coreBg)" stroke="#00f3ff" stroke-width="1.8" filter="url(#glowCyan)" />
+
+    <!-- Corner Accents -->
+    <path d="M 234 57 L 234 52 L 239 52" stroke="#FFFFFF" stroke-width="1.5" fill="none" />
+    <path d="M 646 57 L 646 52 L 641 52" stroke="#FFFFFF" stroke-width="1.5" fill="none" />
+    <path d="M 234 109 L 234 114 L 239 114" stroke="#FFFFFF" stroke-width="1.5" fill="none" />
+    <path d="M 646 109 L 646 114 L 641 114" stroke="#FFFFFF" stroke-width="1.5" fill="none" />
+
+    <text x="440" y="75" text-anchor="middle" fill="#FFFFFF" class="mono title" font-size="16">SUSHANTH ARUN</text>
+    <text x="440" y="93" text-anchor="middle" fill="#00f3ff" class="sans" font-size="12" font-weight="600">Computer Science &amp; Cloud Infrastructure Systems Engineer</text>
+    <text x="440" y="108" text-anchor="middle" fill="#8B949E" class="mono" font-size="9.5">DISTRIBUTED SYSTEMS • MAINFRAME &amp; CLOUD • AGENTIC AI</text>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- HOLOGRAPHIC CIRCUIT LINES TO 3 PILLARS                                    -->
+  <!-- ========================================================================= -->
+  <g stroke-width="2" fill="none">
+    <!-- Left Trace to Pillar 1 -->
+    <path d="M 330 118 L 330 144 L 155 144 L 155 168" stroke="#00f3ff" />
+    <circle cx="155" cy="168" r="3.5" fill="#00f3ff" filter="url(#glowCyan)" />
+
+    <!-- Center Trace to Pillar 2 -->
+    <path d="M 440 118 L 440 168" stroke="#0066ff" />
+    <circle cx="440" cy="168" r="3.5" fill="#0066ff" filter="url(#glowBlue)" />
+
+    <!-- Right Trace to Pillar 3 -->
+    <path d="M 550 118 L 550 144 L 725 144 L 725 168" stroke="#8a2be2" />
+    <circle cx="725" cy="168" r="3.5" fill="#8a2be2" filter="url(#glowViolet)" />
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- PILLAR 1: INFRASTRUCTURE & COMPUTE (#00f3ff Neon Cyan)                     -->
+  <!-- ========================================================================= -->
+  <g id="pillar-1">
+    <rect x="25" y="168" width="260" height="175" rx="8" fill="url(#cardBg1)" stroke="#00f3ff" stroke-width="1.5" filter="url(#glowCyan)" />
+    
+    <!-- Header -->
+    <rect x="35" y="178" width="240" height="26" rx="4" fill="#00f3ff" fill-opacity="0.12" stroke="#00f3ff" stroke-width="0.8" />
+    <text x="155" y="195" text-anchor="middle" fill="#00f3ff" class="mono title" font-size="10.5">INFRASTRUCTURE &amp; COMPUTE</text>
+
+    <!-- Pillar 1 Items -->
+    <g class="sans" font-size="11" fill="#E6EDF3">
+      <circle cx="43" cy="222" r="3" fill="#00f3ff" />
+      <text x="54" y="226"><tspan font-weight="700" fill="#FFFFFF">IBM LinuxONE / IBM Z</tspan></text>
+      <text x="54" y="238" fill="#8B949E" font-size="9.5">Enterprise s390x Mainframe Architecture</text>
+
+      <circle cx="43" cy="256" r="3" fill="#00f3ff" />
+      <text x="54" y="260"><tspan font-weight="700" fill="#FFFFFF">AWS Cloud Infrastructure</tspan></text>
+      <text x="54" y="272" fill="#8B949E" font-size="9.5">VPC, Bedrock, Lambda &amp; IAM Security</text>
+
+      <circle cx="43" cy="290" r="3" fill="#00f3ff" />
+      <text x="54" y="294"><tspan font-weight="700" fill="#FFFFFF">Docker &amp; Kubernetes</tspan></text>
+      <text x="54" y="306" fill="#8B949E" font-size="9.5">Microservice Isolation &amp; Orchestration</text>
+
+      <circle cx="43" cy="324" r="3" fill="#00f3ff" />
+      <text x="54" y="328"><tspan font-weight="700" fill="#FFFFFF">KVM &amp; Virtualization</tspan></text>
+      <text x="54" y="340" fill="#8B949E" font-size="9.5">QEMU, Hypervisor Memory &amp; Paging</text>
+    </g>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- PILLAR 2: SYSTEMS & COMPILERS (#0066ff Cobalt Blue)                        -->
+  <!-- ========================================================================= -->
+  <g id="pillar-2">
+    <rect x="310" y="168" width="260" height="175" rx="8" fill="url(#cardBg2)" stroke="#0066ff" stroke-width="1.5" filter="url(#glowBlue)" />
+    
+    <!-- Header -->
+    <rect x="320" y="178" width="240" height="26" rx="4" fill="#0066ff" fill-opacity="0.15" stroke="#0066ff" stroke-width="0.8" />
+    <text x="440" y="195" text-anchor="middle" fill="#58A6FF" class="mono title" font-size="10.5">SYSTEMS &amp; COMPILERS</text>
+
+    <!-- Pillar 2 Items -->
+    <g class="sans" font-size="11" fill="#E6EDF3">
+      <circle cx="328" cy="222" r="3" fill="#0066ff" />
+      <text x="339" y="226"><tspan font-weight="700" fill="#FFFFFF">C / C++ Low-Level Systems</tspan></text>
+      <text x="339" y="238" fill="#8B949E" font-size="9.5">Pointers, Memory Concurrency, Posix</text>
+
+      <circle cx="328" cy="256" r="3" fill="#0066ff" />
+      <text x="339" y="260"><tspan font-weight="700" fill="#FFFFFF">Distributed Snapshots</tspan></text>
+      <text x="339" y="272" fill="#8B949E" font-size="9.5">Chandy-Lamport State Consistency</text>
+
+      <circle cx="328" cy="290" r="3" fill="#0066ff" />
+      <text x="339" y="294"><tspan font-weight="700" fill="#FFFFFF">Lex &amp; YACC Parsers</tspan></text>
+      <text x="339" y="306" fill="#8B949E" font-size="9.5">Lexical Scanners, AST Grammar Trees</text>
+
+      <circle cx="328" cy="324" r="3" fill="#0066ff" />
+      <text x="339" y="328"><tspan font-weight="700" fill="#FFFFFF">Network Telemetry Engines</tspan></text>
+      <text x="339" y="340" fill="#8B949E" font-size="9.5">Socket Streams &amp; IoT Botnet Analytics</text>
+    </g>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- PILLAR 3: AGENTIC AI & ENGINEERING (#8a2be2 Violet)                        -->
+  <!-- ========================================================================= -->
+  <g id="pillar-3">
+    <rect x="595" y="168" width="260" height="175" rx="8" fill="url(#cardBg3)" stroke="#8a2be2" stroke-width="1.5" filter="url(#glowViolet)" />
+    
+    <!-- Header -->
+    <rect x="605" y="178" width="240" height="26" rx="4" fill="#8a2be2" fill-opacity="0.15" stroke="#8a2be2" stroke-width="0.8" />
+    <text x="725" y="195" text-anchor="middle" fill="#C084FC" class="mono title" font-size="10.5">AGENTIC AI &amp; ENGINEERING</text>
+
+    <!-- Pillar 3 Items -->
+    <g class="sans" font-size="11" fill="#E6EDF3">
+      <circle cx="613" cy="222" r="3" fill="#8a2be2" />
+      <text x="624" y="226"><tspan font-weight="700" fill="#FFFFFF">AWS Bedrock &amp; Agents</tspan></text>
+      <text x="624" y="238" fill="#8B949E" font-size="9.5">Generative Foundation &amp; Tool Routing</text>
+
+      <circle cx="613" cy="256" r="3" fill="#8a2be2" />
+      <text x="624" y="260"><tspan font-weight="700" fill="#FFFFFF">Strands SDK &amp; Workflows</tspan></text>
+      <text x="624" y="272" fill="#8B949E" font-size="9.5">Multi-Agent Coordination &amp; Reasoning</text>
+
+      <circle cx="613" cy="290" r="3" fill="#8a2be2" />
+      <text x="624" y="294"><tspan font-weight="700" fill="#FFFFFF">Python Machine Learning</tspan></text>
+      <text x="624" y="306" fill="#8B949E" font-size="9.5">Scikit-Learn, XGBoost, Predictive Models</text>
+
+      <circle cx="613" cy="324" r="3" fill="#8a2be2" />
+      <text x="624" y="328"><tspan font-weight="700" fill="#FFFFFF">React &amp; Modern Tailwind</tspan></text>
+      <text x="624" y="340" fill="#8B949E" font-size="9.5">High-Performance Dynamic UI Components</text>
+    </g>
+  </g>
+
+  <!-- Bottom System Status -->
+  <g class="mono" font-size="9" fill="#484F58">
+    <text x="35" y="366">HUD BLUEPRINT PROTOCOL // v5.0</text>
+    <text x="440" y="366" text-anchor="middle" fill="#58A6FF">INFRASTRUCTURE • DISTRIBUTED SYSTEMS • AGENTIC AI</text>
+    <text x="845" y="366" text-anchor="end">STATUS: ACTIVE &amp; STABLE</text>
+  </g>
+</svg>
